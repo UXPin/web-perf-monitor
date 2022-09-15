@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "ESNext",
+		"moduleResolution": "node16",
+    "target": "esnext"
+  },
+  "files": ["lighthouse.d.ts"],
+  "include": ["lighthouse.d.ts", "src"]
+}
