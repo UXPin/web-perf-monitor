@@ -6,7 +6,24 @@ A simple project to automate the generation of reports about web performance for
 - Editor
 - Preview
 
-It uses [Puppeteer](https://pptr.dev/) to generate reports using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+It uses [Puppeteer](https://pptr.dev/) to generate reports using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/).
+
+## Setup
+
+Requirement: Node.js > v16
+
+Create a file `.env` at the root level of your project and enter you email and password, used to run the login
+
+```
+EMAIL=your.email@uxpin.com
+PASSWORD=*******
+```
+
+Install dependencies
+
+```
+npm install
+```
 
 ## Running it
 
